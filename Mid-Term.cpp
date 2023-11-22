@@ -28,6 +28,17 @@ void InsertFirst(node& head, SV sv) {
 		head = temp;
 	}
 }
+void swap(SV& a, SV& b) {
+	SV c = a;
+	a = b;
+	b = c;
+}
+void BB(node& head) {
+	for (node i = head; i != NULL; i = i->next) {
+		for (node j = i->next; j!= NULL; j = j->next)
+
+	}
+}
 #pragma region WriteFile
 void Print(SV sv, ofstream& Out) {
 	Out << sv.id << " " << sv.ten;
