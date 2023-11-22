@@ -168,18 +168,18 @@ void print2DUtil(node root, int space)
     print2DUtil(root->left, space);
 }
 
-int main()
-{
-    int space = 0;
-    node Root = NULL;
-    Insert(Root, 10);
-    Insert(Root, 5);
-    Insert(Root, 15);
-    Insert(Root, 3);
-    Insert(Root, 12);
-    Insert(Root, 17);
-    Insert(Root, 11);
-    Delete(Root, 3);
-    print2DUtil(Root, space);
-    return 1;
-}
+//int main()
+//{
+//    int space = 0;
+//    node Root = NULL;
+//    Insert(Root, 10);
+//    Insert(Root, 5);
+//    Insert(Root, 15);
+//    Insert(Root, 3);
+//    Insert(Root, 12);
+//    Insert(Root, 17);
+//    Insert(Root, 11);
+//    Delete(Root, 3);
+//    print2DUtil(Root, space);
+//    return 1;
+//}
